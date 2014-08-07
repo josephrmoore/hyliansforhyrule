@@ -47,6 +47,15 @@ header h1 {
 
 .ad.tshirt {
   background-color: #f7ef0f;
+  background-color: #FFBCB5;
+}
+
+.ad.tshirt h1 {
+	color: #5077ca;
+}
+
+.ad.tshirt p, .ad.tshirt span {
+	color: #666;
 }
 
 .ad.tshirt img {
@@ -58,6 +67,14 @@ header h1 {
 
 .ad.bumper {
   background-color: #99bbff;
+}
+
+.ad.bumper p {
+	color: #fff;
+}
+
+.ad.bumper h1 {
+	color: yellow;
 }
 
 .ad.bumper ul {
@@ -74,6 +91,30 @@ header h1 {
   background-color: #ffd199;
 }
 
+.ad.newsletter h1 {
+	color: #FF8C00;
+}
+
+.ad.newsletter p {
+	color: #50BD15;
+}
+
+.ad.newsletter form {
+	color: #FF8C00;
+	font-family: "Triforce";
+	font-size: 15px;
+}
+
+.ad.newsletter input {
+	width: 280px;
+	border: 1px solid #50BD15;
+	height: 20px;
+	display: block;
+	margin: 5px auto;
+	padding: 2px 5px;
+	font-family: "Triforce";
+}
+
 .ad.orca {
   background-color: #b4b4b4;
   font-size: 18px;
@@ -88,7 +129,7 @@ header h1 {
 }
 
 figure {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 250px;
 }
 figcaption {
@@ -165,6 +206,10 @@ dt img {
 dt span {
 	text-align: center;
 display: block;
+}
+
+.heart {
+	color: red;
 }
 
 footer {
