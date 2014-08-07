@@ -1,0 +1,224 @@
+body {
+  font-family: "Z3";
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+header {
+  padding-left: 210px;
+  min-height: 133px;
+  background: url("../images/H4H.jpg") top left no-repeat transparent;
+  background-size: 200px 133px;
+  margin-bottom: 40px;
+}
+header h1 {
+  font-size: 95px; 
+  line-height: 1;
+  margin: 10px 0 0;
+  padding-top: 20px;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.body {
+  width: 760px;
+  float: left;
+  margin: 0 40px 40px 0;
+}
+.sidebar {
+  width: 400px;
+  float: right;
+}
+
+.ad {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+.ad h1 {
+  font-size: 24px;
+}
+
+.ad.tshirt {
+  background-color: #f7ef0f;
+  background-color: #FFBCB5;
+}
+
+.ad.tshirt h1 {
+	color: #5077ca;
+}
+
+.ad.tshirt p, .ad.tshirt span {
+	color: #666;
+}
+
+.ad.tshirt img {
+  width: 250px;
+}
+.ad.tshirt figcaption {
+  width: 250px;
+}
+
+.ad.bumper {
+  background-color: #99bbff;
+}
+
+.ad.bumper p {
+	color: #fff;
+}
+
+.ad.bumper h1 {
+	color: yellow;
+}
+
+.ad.bumper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ad.bumper img {
+  width: 300px;
+}
+
+.ad.newsletter {
+  background-color: #ffd199;
+}
+
+.ad.newsletter h1 {
+	color: #FF8C00;
+}
+
+.ad.newsletter p {
+	color: #50BD15;
+}
+
+.ad.newsletter form {
+	color: #FF8C00;
+	font-family: "Triforce";
+	font-size: 15px;
+}
+
+.ad.newsletter input {
+	width: 280px;
+	border: 1px solid #50BD15;
+	height: 20px;
+	display: block;
+	margin: 5px auto;
+	padding: 2px 5px;
+	font-family: "Triforce";
+}
+
+.ad.orca {
+  background-color: #b4b4b4;
+  font-size: 18px;
+}
+
+.ad.orca h1 {
+  color: #fff;
+}
+
+.ad.orca img {
+  width: 300px;
+}
+
+figure {
+  margin: 20px auto;
+  width: 250px;
+}
+figcaption {
+  font-size: 11px;
+  font-style: italic;
+  color: #333;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin: 10px 0;
+  padding: 0;
+  font-family: "Triforce";
+  line-height: 1.2;
+}
+
+header h2 {
+  font-family: "CC";
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.conversation {
+  border: 1px solid #000;
+  padding: 10px;
+  width: 510px;
+  margin: 20px;
+}
+
+dd {
+background: url("../images/scroll.jpg") repeat;
+color: #fff;
+padding: 10px;
+width: 400px;
+margin: 0 0 30px 0;
+}
+
+dt {
+  width: 90px;
+  position: relative;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+dt.p1 {
+  float: left;
+  clear: both;
+  text-align: right;
+}
+
+dd.p1 {
+  float: right;
+  clear: right;
+}
+
+dt.p2 {
+  float: right;
+  clear: both;
+  text-align: left;
+}
+
+dd.p2 {
+  float: left;
+  clear: left;
+}
+
+dt img {
+  margin: 0 auto;
+  display: block;
+}
+
+dt span {
+	text-align: center;
+display: block;
+}
+
+.heart {
+	color: red;
+}
+
+footer {
+	margin-top: 40px;
+  clear: both;
+}
+
+.copyright {
+  font-family: "Triforce";
+  text-align: center;
+  display: block;
+}
