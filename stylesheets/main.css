@@ -1,15 +1,50 @@
-/* line 1, ../sass/main.scss */
+/* line 4, ../sass/main.scss */
 body {
-  font-family: "Z3";
+  font-family: Z3;
   font-size: 24px;
+  background: #003d00;
+  color: #adadad;
 }
 
-/* line 6, ../sass/main.scss */
+/* line 11, ../sass/main.scss */
 p {
   margin-bottom: 20px;
 }
 
-/* line 10, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
+a {
+  color: #9290ff;
+}
+/* line 17, ../sass/main.scss */
+a:hover {
+  color: #b3321c;
+}
+
+/* line 22, ../sass/main.scss */
+figure {
+  margin: 20px auto;
+  width: 250px;
+}
+
+/* line 27, ../sass/main.scss */
+figcaption {
+  font-size: 11px;
+  font-style: italic;
+  color: #333;
+}
+
+/* line 33, ../sass/main.scss */
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin: 10px 0;
+  padding: 0;
+  font-family: Triforce;
+  line-height: 1.2;
+  color: #ffe3ab;
+}
+
+/* line 43, ../sass/main.scss */
 header {
   padding-left: 210px;
   min-height: 133px;
@@ -17,190 +52,25 @@ header {
   background-size: 200px 133px;
   margin-bottom: 40px;
 }
-
-/* line 17, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 header h1 {
   font-size: 95px;
   line-height: 1;
   margin: 10px 0 0;
   padding-top: 20px;
+  color: #ffbc00;
+  text-shadow: 3px 2px 0 darkorange;
 }
-
-/* line 23, ../sass/main.scss */
-.wrapper {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-/* line 27, ../sass/main.scss */
-.body {
-  width: 760px;
-  float: left;
-  margin: 0 40px 40px 0;
-}
-
-/* line 32, ../sass/main.scss */
-.sidebar {
-  width: 400px;
-  float: right;
-}
-
-/* line 37, ../sass/main.scss */
-.ad {
-  border: 1px solid black;
-  padding: 10px;
-  width: 300px;
-  margin: 0 0 20px 0;
-  font-size: 18px;
-}
-
-/* line 44, ../sass/main.scss */
-.ad h1 {
-  font-size: 24px;
-}
-
-/* line 48, ../sass/main.scss */
-.ad.tshirt {
-  background-color: #f7ef0f;
-  background-color: #FFBCB5;
-}
-
-/* line 53, ../sass/main.scss */
-.ad.tshirt h1 {
-  color: #5077ca;
-}
-
 /* line 57, ../sass/main.scss */
-.ad.tshirt p, .ad.tshirt span {
-  color: #666;
-}
-
-/* line 61, ../sass/main.scss */
-.ad.tshirt img {
-  width: 250px;
-}
-
-/* line 64, ../sass/main.scss */
-.ad.tshirt figcaption {
-  width: 250px;
-}
-
-/* line 68, ../sass/main.scss */
-.ad.bumper {
-  background-color: #99bbff;
-}
-
-/* line 72, ../sass/main.scss */
-.ad.bumper p {
-  color: #fff;
-}
-
-/* line 76, ../sass/main.scss */
-.ad.bumper h1 {
-  color: yellow;
-}
-
-/* line 80, ../sass/main.scss */
-.ad.bumper ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* line 86, ../sass/main.scss */
-.ad.bumper img {
-  width: 300px;
-}
-
-/* line 90, ../sass/main.scss */
-.ad.newsletter {
-  background-color: #ffd199;
-}
-
-/* line 94, ../sass/main.scss */
-.ad.newsletter h1 {
-  color: #FF8C00;
-}
-
-/* line 98, ../sass/main.scss */
-.ad.newsletter p {
-  color: #50BD15;
-}
-
-/* line 102, ../sass/main.scss */
-.ad.newsletter form {
-  color: #FF8C00;
-  font-family: "Triforce";
-  font-size: 15px;
-}
-
-/* line 108, ../sass/main.scss */
-.ad.newsletter input {
-  width: 280px;
-  border: 1px solid #50BD15;
-  height: 20px;
-  display: block;
-  margin: 5px auto;
-  padding: 2px 5px;
-  font-family: "Triforce";
-}
-
-/* line 118, ../sass/main.scss */
-.ad.orca {
-  background-color: #b4b4b4;
-  font-size: 18px;
-}
-
-/* line 123, ../sass/main.scss */
-.ad.orca h1 {
-  color: #fff;
-}
-
-/* line 127, ../sass/main.scss */
-.ad.orca img {
-  width: 300px;
-}
-
-/* line 131, ../sass/main.scss */
-figure {
-  margin: 20px auto;
-  width: 250px;
-}
-
-/* line 135, ../sass/main.scss */
-figcaption {
-  font-size: 11px;
-  font-style: italic;
-  color: #333;
-}
-
-/* line 141, ../sass/main.scss */
-h1 {
-  font-size: 48px;
-  font-weight: normal;
-  margin: 10px 0;
-  padding: 0;
-  font-family: "Triforce";
-  line-height: 1.2;
-}
-
-/* line 150, ../sass/main.scss */
 header h2 {
-  font-family: "CC";
+  font-family: CC;
   margin: 0;
   padding: 0;
   font-size: 12px;
+  color: #fff;
 }
 
-/* line 157, ../sass/main.scss */
-.conversation {
-  border: 1px solid #000;
-  padding: 10px;
-  width: 510px;
-  margin: 20px;
-}
-
-/* line 164, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 dd {
   background: url("../images/scroll.jpg") repeat;
   color: #fff;
@@ -208,67 +78,449 @@ dd {
   width: 400px;
   margin: 0 0 30px 0;
 }
+/* line 72, ../sass/main.scss */
+dd.p1 {
+  float: right;
+  clear: right;
+}
+/* line 76, ../sass/main.scss */
+dd.p2 {
+  float: left;
+  clear: left;
+}
 
-/* line 172, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 dt {
   width: 90px;
   position: relative;
   text-align: center;
   margin: 0 0 30px 0;
 }
-
-/* line 179, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
 dt.p1 {
   float: left;
   clear: both;
   text-align: right;
 }
-
-/* line 185, ../sass/main.scss */
-dd.p1 {
-  float: right;
-  clear: right;
-}
-
-/* line 190, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 dt.p2 {
   float: right;
   clear: both;
   text-align: left;
 }
-
-/* line 196, ../sass/main.scss */
-dd.p2 {
-  float: left;
-  clear: left;
-}
-
-/* line 201, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 dt img {
   margin: 0 auto;
   display: block;
 }
-
-/* line 206, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 dt span {
   text-align: center;
   display: block;
+  color: #ffbc00;
 }
 
-/* line 211, ../sass/main.scss */
-.heart {
-  color: red;
-}
-
-/* line 215, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 footer {
   margin-top: 40px;
   clear: both;
 }
 
-/* line 220, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 120, ../sass/main.scss */
+.body {
+  width: 760px;
+  float: left;
+  margin: 0 40px 40px 0;
+}
+
+/* line 125, ../sass/main.scss */
+.sidebar {
+  width: 400px;
+  float: right;
+}
+
+/* line 130, ../sass/main.scss */
+.conversation {
+  border: 1px solid #000;
+  padding: 10px;
+  width: 510px;
+  margin: 20px;
+  background-color: #e5610f;
+}
+
+/* line 138, ../sass/main.scss */
 .copyright {
-  font-family: "Triforce";
+  font-family: Triforce;
   text-align: center;
   display: block;
+  color: #ffbc00;
+  font-size: 16px;
+}
+
+/* line 146, ../sass/main.scss */
+.heart {
+  color: #ff3500;
+  text-shadow: 2px 0px 0px #fff;
+}
+
+/* line 151, ../sass/main.scss */
+.ad {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+/* line 157, ../sass/main.scss */
+.ad h1 {
+  font-size: 24px;
+}
+/* line 160, ../sass/main.scss */
+.ad.tshirt {
+  background-color: #b3321c;
+}
+/* line 162, ../sass/main.scss */
+.ad.tshirt h1 {
+  color: #e5610f;
+}
+/* line 165, ../sass/main.scss */
+.ad.tshirt span {
+  color: #e5610f;
+}
+/* line 168, ../sass/main.scss */
+.ad.tshirt p {
+  color: #e5610f;
+}
+/* line 171, ../sass/main.scss */
+.ad.tshirt img {
+  width: 250px;
+}
+/* line 174, ../sass/main.scss */
+.ad.tshirt figcaption {
+  width: 250px;
+}
+/* line 178, ../sass/main.scss */
+.ad.bumper {
+  background-color: #9290ff;
+}
+/* line 180, ../sass/main.scss */
+.ad.bumper p {
+  color: #fff;
+}
+/* line 184, ../sass/main.scss */
+.ad.bumper h1 {
+  color: #ffbc00;
+}
+/* line 188, ../sass/main.scss */
+.ad.bumper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 194, ../sass/main.scss */
+.ad.bumper img {
+  width: 300px;
+}
+/* line 198, ../sass/main.scss */
+.ad.newsletter {
+  background-color: #ffe3ab;
+}
+/* line 200, ../sass/main.scss */
+.ad.newsletter h1 {
+  color: #b3321c;
+}
+/* line 204, ../sass/main.scss */
+.ad.newsletter p {
+  color: #00cc00;
+}
+/* line 208, ../sass/main.scss */
+.ad.newsletter form {
+  color: #b3321c;
+  font-family: Triforce;
+  font-size: 15px;
+}
+/* line 214, ../sass/main.scss */
+.ad.newsletter input {
+  width: 280px;
+  border: 1px solid #50BD15;
+  height: 20px;
+  display: block;
+  margin: 5px auto;
+  padding: 2px 5px;
+  font-family: Triforce;
+}
+/* line 224, ../sass/main.scss */
+.ad.orca {
+  background-color: #666666;
+  font-size: 18px;
+}
+/* line 227, ../sass/main.scss */
+.ad.orca h1 {
+  color: #fff;
+}
+/* line 231, ../sass/main.scss */
+.ad.orca img {
+  width: 300px;
+}
+
+/* line 238, ../sass/main.scss */
+.triforce_p {
+  display: inline-block;
+  top: 4px;
+}
+/* line 11, ../sass/triforce.scss */
+.triforce_p {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  left: 5px;
+  margin-bottom: 4px;
+}
+/* line 18, ../sass/triforce.scss */
+.triforce_p .triangle {
+  display: block;
+  content: '';
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 5.2px solid #ffbc00;
+}
+/* line 28, ../sass/triforce.scss */
+.triforce_p .triangle:before {
+  content: '';
+  position: absolute;
+  display: block;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 5.2px solid #ffbc00;
+  top: 5.2px;
+  left: -6px;
+}
+/* line 38, ../sass/triforce.scss */
+.triforce_p .triangle:after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 5.2px solid #ffbc00;
+  top: 5.2px;
+}
+/* line 47, ../sass/triforce.scss */
+.triforce_p .shadow {
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  position: relative;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5.2px solid darkorange;
+  transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  top: 1.4px;
+  left: -3.6px;
+}
+/* line 65, ../sass/triforce.scss */
+.triforce_p .shadow:before {
+  content: '';
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5.2px solid darkorange;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+/* line 75, ../sass/triforce.scss */
+.triforce_p .shadow:after {
+  content: '';
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5.2px solid darkorange;
+  position: absolute;
+  display: block;
+  top: -5.2px;
+  left: 3px;
+}
+
+/* line 244, ../sass/main.scss */
+.triforce_h {
+  display: inline-block;
+  top: 20px;
+}
+/* line 11, ../sass/triforce.scss */
+.triforce_h {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 20px;
+  margin-bottom: 16px;
+}
+/* line 18, ../sass/triforce.scss */
+.triforce_h .triangle {
+  display: block;
+  content: '';
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20.8px solid #ffbc00;
+}
+/* line 28, ../sass/triforce.scss */
+.triforce_h .triangle:before {
+  content: '';
+  position: absolute;
+  display: block;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20.8px solid #ffbc00;
+  top: 20.8px;
+  left: -24px;
+}
+/* line 38, ../sass/triforce.scss */
+.triforce_h .triangle:after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20.8px solid #ffbc00;
+  top: 20.8px;
+}
+/* line 47, ../sass/triforce.scss */
+.triforce_h .shadow {
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  position: relative;
+  z-index: -1;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 20.8px solid darkorange;
+  transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  top: 5.6px;
+  left: -14.4px;
+}
+/* line 65, ../sass/triforce.scss */
+.triforce_h .shadow:before {
+  content: '';
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 20.8px solid darkorange;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+/* line 75, ../sass/triforce.scss */
+.triforce_h .shadow:after {
+  content: '';
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 20.8px solid darkorange;
+  position: absolute;
+  display: block;
+  top: -20.8px;
+  left: 12px;
+}
+
+/* line 11, ../sass/triforce.scss */
+.triforce_ad {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 100px;
+  margin-bottom: 80px;
+}
+/* line 18, ../sass/triforce.scss */
+.triforce_ad .triangle {
+  display: block;
+  content: '';
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 104px solid #ffbc00;
+}
+/* line 28, ../sass/triforce.scss */
+.triforce_ad .triangle:before {
+  content: '';
+  position: absolute;
+  display: block;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 104px solid #ffbc00;
+  top: 104px;
+  left: -120px;
+}
+/* line 38, ../sass/triforce.scss */
+.triforce_ad .triangle:after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 104px solid #ffbc00;
+  top: 104px;
+}
+/* line 47, ../sass/triforce.scss */
+.triforce_ad .shadow {
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  position: relative;
+  z-index: -1;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 104px solid darkorange;
+  transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  top: 28.0px;
+  left: -72px;
+}
+/* line 65, ../sass/triforce.scss */
+.triforce_ad .shadow:before {
+  content: '';
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 104px solid darkorange;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+/* line 75, ../sass/triforce.scss */
+.triforce_ad .shadow:after {
+  content: '';
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 104px solid darkorange;
+  position: absolute;
+  display: block;
+  top: -104px;
+  left: 60px;
 }
