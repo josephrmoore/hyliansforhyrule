@@ -11,6 +11,7 @@ jQuery(document).ready(function($){
 	if(localStorage.getItem('newsletter')=='hyrule' || localStorage.getItem('newsletter')=='termina'){
 		$('.newsletter').remove();
 		$('#modal').remove();
+		$('header').addClass("member-level");
 	} else {
 		$('#subscribe_to_newsletter').click(function(){
 			$('#modal').removeClass('display_none');
