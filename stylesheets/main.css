@@ -21,19 +21,17 @@ a:hover {
 }
 
 /* line 22, ../sass/main.scss */
-figure {
-  margin: 20px auto;
-  width: 250px;
+img {
+  max-width: 680px;
 }
 
-/* line 27, ../sass/main.scss */
+/* line 26, ../sass/main.scss */
 figcaption {
-  font-size: 11px;
+  font-size: 12px;
   font-style: italic;
-  color: #333;
 }
 
-/* line 33, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 h1 {
   font-size: 48px;
   font-weight: normal;
@@ -44,7 +42,7 @@ h1 {
   color: #ffe3ab;
 }
 
-/* line 43, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 header {
   padding-left: 210px;
   min-height: 133px;
@@ -52,7 +50,7 @@ header {
   background-size: 200px 133px;
   margin-bottom: 40px;
 }
-/* line 49, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 header h1 {
   font-size: 95px;
   line-height: 1;
@@ -61,7 +59,7 @@ header h1 {
   color: #ffbc00;
   text-shadow: 3px 2px 0 darkorange;
 }
-/* line 57, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 header h2 {
   font-family: CC;
   margin: 0;
@@ -70,7 +68,7 @@ header h2 {
   color: #fff;
 }
 
-/* line 66, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 dd {
   background: url("../images/scroll.jpg") repeat;
   color: #fff;
@@ -78,74 +76,83 @@ dd {
   width: 400px;
   margin: 0 0 30px 0;
 }
-/* line 72, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 dd.p1 {
   float: right;
   clear: right;
 }
-/* line 76, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 dd.p2 {
   float: left;
   clear: left;
 }
 
-/* line 82, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 dt {
   width: 90px;
   position: relative;
   text-align: center;
   margin: 0 0 30px 0;
 }
-/* line 87, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 dt.p1 {
   float: left;
   clear: both;
   text-align: right;
 }
-/* line 93, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 dt.p2 {
   float: right;
   clear: both;
   text-align: left;
 }
-/* line 99, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
 dt img {
   margin: 0 auto;
   display: block;
 }
-/* line 104, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 dt span {
   text-align: center;
   display: block;
   color: #ffbc00;
 }
 
-/* line 111, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 footer {
   margin-top: 40px;
   clear: both;
 }
 
-/* line 116, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 .wrapper {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 120, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 .body {
   width: 760px;
   float: left;
   margin: 0 40px 40px 0;
 }
 
-/* line 125, ../sass/main.scss */
+/* line 123, ../sass/main.scss */
 .sidebar {
   width: 400px;
   float: right;
 }
+/* line 126, ../sass/main.scss */
+.sidebar figure {
+  margin: 20px auto;
+  width: 250px;
+}
+/* line 131, ../sass/main.scss */
+.sidebar figcaption {
+  color: #333;
+}
 
-/* line 130, ../sass/main.scss */
+/* line 136, ../sass/main.scss */
 .conversation {
   border: 1px solid #000;
   padding: 10px;
@@ -154,7 +161,7 @@ footer {
   background-color: #e5610f;
 }
 
-/* line 138, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 .copyright {
   font-family: Triforce;
   text-align: center;
@@ -163,13 +170,13 @@ footer {
   font-size: 16px;
 }
 
-/* line 146, ../sass/main.scss */
+/* line 152, ../sass/main.scss */
 .heart, .heart-list li:before {
   color: #ff3500;
   text-shadow: 2px 0px 0px #fff;
 }
 
-/* line 151, ../sass/main.scss */
+/* line 157, ../sass/main.scss */
 .ad {
   border: 1px solid black;
   padding: 10px;
@@ -177,75 +184,75 @@ footer {
   margin: 0 0 20px 0;
   font-size: 18px;
 }
-/* line 157, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 .ad h1 {
   font-size: 24px;
 }
-/* line 160, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 .ad.tshirt {
   background-color: #b3321c;
 }
-/* line 162, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 .ad.tshirt h1 {
   color: #e5610f;
 }
-/* line 165, ../sass/main.scss */
+/* line 171, ../sass/main.scss */
 .ad.tshirt span {
   color: #e5610f;
 }
-/* line 168, ../sass/main.scss */
+/* line 174, ../sass/main.scss */
 .ad.tshirt p {
   color: #e5610f;
 }
-/* line 171, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 .ad.tshirt img {
   width: 250px;
 }
-/* line 174, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .ad.tshirt figcaption {
   width: 250px;
 }
-/* line 178, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .ad.bumper {
   background-color: #9290ff;
 }
-/* line 180, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 .ad.bumper p {
   color: #fff;
 }
-/* line 184, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 .ad.bumper h1 {
   color: #ffbc00;
 }
-/* line 188, ../sass/main.scss */
+/* line 194, ../sass/main.scss */
 .ad.bumper ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 194, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .ad.bumper img {
   width: 300px;
 }
-/* line 198, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 .ad.newsletter {
   background-color: #ffe3ab;
 }
-/* line 200, ../sass/main.scss */
+/* line 206, ../sass/main.scss */
 .ad.newsletter h1 {
   color: #b3321c;
 }
-/* line 204, ../sass/main.scss */
+/* line 210, ../sass/main.scss */
 .ad.newsletter p {
   color: #00cc00;
 }
-/* line 208, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 .ad.newsletter form {
   color: #b3321c;
   font-family: Triforce;
   font-size: 15px;
 }
-/* line 214, ../sass/main.scss */
+/* line 220, ../sass/main.scss */
 .ad.newsletter input {
   width: 280px;
   border: 1px solid #50BD15;
@@ -255,21 +262,21 @@ footer {
   padding: 2px 5px;
   font-family: Triforce;
 }
-/* line 224, ../sass/main.scss */
+/* line 230, ../sass/main.scss */
 .ad.orca {
   background-color: #666666;
   font-size: 18px;
 }
-/* line 227, ../sass/main.scss */
+/* line 233, ../sass/main.scss */
 .ad.orca h1 {
   color: #fff;
 }
-/* line 231, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .ad.orca img {
   width: 300px;
 }
 
-/* line 238, ../sass/main.scss */
+/* line 244, ../sass/main.scss */
 .triforce_p {
   display: inline-block;
   top: 4px;
@@ -356,7 +363,7 @@ footer {
   left: 3px;
 }
 
-/* line 244, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 .triforce_h {
   display: inline-block;
   top: 20px;
@@ -525,13 +532,13 @@ footer {
   left: 60px;
 }
 
-/* line 255, ../sass/main.scss */
+/* line 261, ../sass/main.scss */
 .heart-list li {
   padding-left: 30px;
   margin-bottom: 20px;
   position: relative;
 }
-/* line 259, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 .heart-list li:before {
   content: "#";
   position: absolute;
