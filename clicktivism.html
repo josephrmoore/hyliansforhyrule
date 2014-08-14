@@ -66,7 +66,7 @@
 		        		<dd class="p1">Hahaha I never thought of that!</dd>
 		        	</dl>
 		        	<p>These attitudes are dangerous, poisonous, and contagious. Every post where someone has taken the time to write lies about us and our cause, every slander and attempt to re-write history is another sword raised against our people. It starts with words sure, but words quickly become feelings which always become action.</p>
-		        	<p>So how to you fight antihyliac propaganda like this? Speak up! Don't stay silent! Let your friends and family know that you support the Hylian Military Effort, through words, hearts, and deeds. For more information on other ways you can help <a href="clicktivism.html">check out our clicktivism page</a> for help on taking on the antihyliac hate all to prevalent in the overworld.</p>
+		        	<p>So how to you fight antihyliac propaganda like this? Speak up! Don't stay silent! Let your friends and family know that you support the Hylian Military Effort, through words, hearts, and deeds. Take on the antihyliac hate all too prevalent in the overworld.</p>
 		        </div>
 	        </div>      
 	        <div class="sidebar">
@@ -84,15 +84,16 @@
 		        	<p>Wearing this shirt will show everyone, from Gorons to Zoras, who really deserves to be in charge. Proceeds from the sales of this shirt directly go to support the Hylian military effort. </p>
 		        	<span class="location">Come visit our new shop between Lon Lon Ranch and Gerudo Valley, just bomb the only tree in the clearing and you're in!</span>
 		        </div>
-		        
+		        <div class="triforce_ad">
+			        <div class="triangle">
+				        <div class="shadow"></div>
+				    </div>
+		        </div>
 		        <div class="ad newsletter">
 		          <h1>It's a Secret to Everybody...<br />But it shouldn't Be!!!</h1>
-		          <p>Get the latest up-to-date news straight from Epona's mouth, The Hylian Times Newsletter keeps track of all the major military movements, plans, and latest schemes to help keep the Hylians Number 1 in all the overworld. <span class="heart">#</span></p>
-		          <p>All you have to do is submit your email and we'll do the rest, and it won't cost you a rupee.</p>
-		          <form>
-		              <label for="newsletter_email">Sign up for The Hylian Times Newsletter Now!</label>
-			          <input id="newsletter_email" type="email" placeholder="Hylian Email Address" />
-		          </form>
+		          <p>Get the latest up-to-date news straight from Epona's mouth, The Hylian Herald  keeps track of all the major military movements, plans, and latest schemes to help keep the Hylians Number 1 in all the overworld. <span class="heart">#</span></p>
+		          <h2>Join Us Now!</h2>
+		          <button id="subscribe_to_newsletter">Subscribe to The Hylian Herald</button>
 		        </div>
 		        
 		        <div class="triforce_ad">
@@ -120,6 +121,11 @@
 		        		</li>
 		        	</ul>
 		        </div>
+		        <div class="triforce_ad">
+			        <div class="triangle">
+				        <div class="shadow"></div>
+				    </div>
+		        </div>
 		        <div class="ad orca">
 		        	<h1>It was wrong of me to treat you like a child... So prove it and act like a man!</h1>
 		        	<p>Do you have what it takes to sling steel with the best of the best? Is your "scum score" higher than anyone else in your village? Are you getting bored with the same old raids and occupations? Then maybe you have what it takes to be one of the Orca Elite.</p>
@@ -133,13 +139,8 @@
 		        	</p>
 		        	<img src="images/orca.png" alt="ORCA logo" />    	
 		        </div>
-		        <div class="triforce_ad">
-			        <div class="triangle">
-				        <div class="shadow"></div>
-				    </div>
-		        </div>
 	        </div>
-
+	        
 	        <footer>
 	        	<span class="copyright">&copy; Copyright 2104 <span class="org">Hylians for Hyrule</span></span>
 	        </footer>
@@ -147,9 +148,20 @@
           
         </div>
         
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-	    <script src="js/main.js"></script>
+	    <div id="modal" class="display_none">
+        	<div id="modal_content">
+	        	<h1>Get the News... Be In The Know... Be One of Us</h1>
+		        <p>All you have to do is submit your email and we'll do the rest, and it won't cost you a rupee. Get the latest Hylian News so that you will be ready to do what it takes, fight for what's right, and truly be what the Godesses intended, a ruler, keeper, and protector of this land.</p>
+		        <form id="sign_up_form">
+		        	<label for="newsletter_email">Sign up for The Hylian Times Newsletter Now!</label>
+		        	<input id="newsletter_email" type="email" placeholder="Hylian Email Address" />
+		        </form>
+        	</div>
+        </div>
+        
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+	    <script src="js/subscribe.js"></script>
 	  	<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID. -->
 	  	<script>
 	    	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

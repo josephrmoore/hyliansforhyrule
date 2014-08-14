@@ -262,21 +262,53 @@ footer {
   padding: 2px 5px;
   font-family: Triforce;
 }
-/* line 230, ../sass/main.scss */
+/* line 229, ../sass/main.scss */
+.ad.newsletter button {
+  color: #ffbc00;
+  background-color: #b3321c;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+}
+/* line 241, ../sass/main.scss */
 .ad.orca {
   background-color: #666666;
   font-size: 18px;
 }
-/* line 233, ../sass/main.scss */
+/* line 244, ../sass/main.scss */
 .ad.orca h1 {
   color: #fff;
 }
-/* line 237, ../sass/main.scss */
+/* line 248, ../sass/main.scss */
 .ad.orca img {
   width: 300px;
 }
 
-/* line 244, ../sass/main.scss */
+/* line 254, ../sass/main.scss */
+#modal {
+  padding: 50px 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 265, ../sass/main.scss */
+#modal_content {
+  background: white;
+  width: 700px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+/* line 273, ../sass/main.scss */
 .triforce_p {
   display: inline-block;
   top: 4px;
@@ -363,7 +395,7 @@ footer {
   left: 3px;
 }
 
-/* line 250, ../sass/main.scss */
+/* line 279, ../sass/main.scss */
 .triforce_h {
   display: inline-block;
   top: 20px;
@@ -532,13 +564,13 @@ footer {
   left: 60px;
 }
 
-/* line 261, ../sass/main.scss */
+/* line 290, ../sass/main.scss */
 .heart-list li {
   padding-left: 30px;
   margin-bottom: 20px;
   position: relative;
 }
-/* line 265, ../sass/main.scss */
+/* line 294, ../sass/main.scss */
 .heart-list li:before {
   content: "#";
   position: absolute;
