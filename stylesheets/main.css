@@ -343,7 +343,7 @@ footer {
   margin-bottom: 4px;
 }
 /* line 18, ../sass/triforce.scss */
-.triforce_p .triangle {
+.triforce_p .triangle-power, .triforce_p .triangle {
   display: block;
   content: '';
   position: relative;
@@ -354,8 +354,8 @@ footer {
   border-bottom: 5.2px solid #ffbc00;
 }
 /* line 28, ../sass/triforce.scss */
-.triforce_p .triangle:before {
-  content: '';
+.triforce_p .triangle-wisdom, .triforce_p .triangle:before {
+  content: attr(data-wisdom) "";
   position: absolute;
   display: block;
   border-left: 3px solid transparent;
@@ -365,8 +365,8 @@ footer {
   left: -6px;
 }
 /* line 38, ../sass/triforce.scss */
-.triforce_p .triangle:after {
-  content: '';
+.triforce_p .triangle-courage, .triforce_p .triangle:after {
+  content: attr(data-courage) "";
   position: absolute;
   display: block;
   border-left: 3px solid transparent;
@@ -375,7 +375,7 @@ footer {
   top: 5.2px;
 }
 /* line 47, ../sass/triforce.scss */
-.triforce_p .shadow {
+.triforce_p .shadow-power, .triforce_p .shadow {
   display: block;
   content: '';
   width: 0;
@@ -394,7 +394,7 @@ footer {
   left: -3.6px;
 }
 /* line 65, ../sass/triforce.scss */
-.triforce_p .shadow:before {
+.triforce_p .shadow-wisdom, .triforce_p .shadow:before {
   content: '';
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
@@ -405,7 +405,7 @@ footer {
   left: 0;
 }
 /* line 75, ../sass/triforce.scss */
-.triforce_p .shadow:after {
+.triforce_p .shadow-courage, .triforce_p .shadow:after {
   content: '';
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
@@ -430,7 +430,7 @@ footer {
   margin-bottom: 16px;
 }
 /* line 18, ../sass/triforce.scss */
-.triforce_h .triangle {
+.triforce_h .triangle-power, .triforce_h .triangle {
   display: block;
   content: '';
   position: relative;
@@ -441,8 +441,8 @@ footer {
   border-bottom: 20.8px solid #ffbc00;
 }
 /* line 28, ../sass/triforce.scss */
-.triforce_h .triangle:before {
-  content: '';
+.triforce_h .triangle-wisdom, .triforce_h .triangle:before {
+  content: attr(data-wisdom) "";
   position: absolute;
   display: block;
   border-left: 12px solid transparent;
@@ -452,8 +452,8 @@ footer {
   left: -24px;
 }
 /* line 38, ../sass/triforce.scss */
-.triforce_h .triangle:after {
-  content: '';
+.triforce_h .triangle-courage, .triforce_h .triangle:after {
+  content: attr(data-courage) "";
   position: absolute;
   display: block;
   border-left: 12px solid transparent;
@@ -462,7 +462,7 @@ footer {
   top: 20.8px;
 }
 /* line 47, ../sass/triforce.scss */
-.triforce_h .shadow {
+.triforce_h .shadow-power, .triforce_h .shadow {
   display: block;
   content: '';
   width: 0;
@@ -481,7 +481,7 @@ footer {
   left: -14.4px;
 }
 /* line 65, ../sass/triforce.scss */
-.triforce_h .shadow:before {
+.triforce_h .shadow-wisdom, .triforce_h .shadow:before {
   content: '';
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
@@ -492,7 +492,7 @@ footer {
   left: 0;
 }
 /* line 75, ../sass/triforce.scss */
-.triforce_h .shadow:after {
+.triforce_h .shadow-courage, .triforce_h .shadow:after {
   content: '';
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
@@ -512,7 +512,7 @@ footer {
   margin-bottom: 80px;
 }
 /* line 18, ../sass/triforce.scss */
-.triforce_ad .triangle {
+.triforce_ad .triangle-power, .triforce_ad .triangle {
   display: block;
   content: '';
   position: relative;
@@ -523,8 +523,8 @@ footer {
   border-bottom: 104px solid #ffbc00;
 }
 /* line 28, ../sass/triforce.scss */
-.triforce_ad .triangle:before {
-  content: '';
+.triforce_ad .triangle-wisdom, .triforce_ad .triangle:before {
+  content: attr(data-wisdom) "";
   position: absolute;
   display: block;
   border-left: 60px solid transparent;
@@ -534,8 +534,8 @@ footer {
   left: -120px;
 }
 /* line 38, ../sass/triforce.scss */
-.triforce_ad .triangle:after {
-  content: '';
+.triforce_ad .triangle-courage, .triforce_ad .triangle:after {
+  content: attr(data-courage) "";
   position: absolute;
   display: block;
   border-left: 60px solid transparent;
@@ -544,7 +544,7 @@ footer {
   top: 104px;
 }
 /* line 47, ../sass/triforce.scss */
-.triforce_ad .shadow {
+.triforce_ad .shadow-power, .triforce_ad .shadow {
   display: block;
   content: '';
   width: 0;
@@ -563,7 +563,7 @@ footer {
   left: -72px;
 }
 /* line 65, ../sass/triforce.scss */
-.triforce_ad .shadow:before {
+.triforce_ad .shadow-wisdom, .triforce_ad .shadow:before {
   content: '';
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
@@ -574,7 +574,7 @@ footer {
   left: 0;
 }
 /* line 75, ../sass/triforce.scss */
-.triforce_ad .shadow:after {
+.triforce_ad .shadow-courage, .triforce_ad .shadow:after {
   content: '';
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
