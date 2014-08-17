@@ -1,0 +1,101 @@
+/* Reset */
+/* line 11, ../sass/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 20, ../sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 23, ../sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../sass/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 36, ../sass/reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 41, ../sass/reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 44, ../sass/reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 49, ../sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 55, ../sass/reset.scss */
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, video {
+  display: block;
+}
+
+/* Turning off elements */
+/* line 62, ../sass/reset.scss */
+.display_none {
+  display: none;
+}
+
+/* Clearing Floats */
+/* line 68, ../sass/reset.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* line 76, ../sass/reset.scss */
+* html .group {
+  zoom: 1;
+}
+
+/* IE6 */
+/* line 77, ../sass/reset.scss */
+*:first-child + html .group {
+  zoom: 1;
+}
+
+/* IE7 */
