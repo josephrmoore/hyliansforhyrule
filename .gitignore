@@ -24,4 +24,4 @@ Temporary Items
 .sass-cache
 
 # Password stuff
-mailinglist.php
+db/
