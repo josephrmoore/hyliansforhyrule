@@ -22,10 +22,34 @@ jQuery(document).ready(function($){
 			checkLength();
 		} else {
 			if(current_roll[0]==3 && current_roll[1]==1 && current_roll[2]==2 && current_roll[3]==1){
-				alert("you found ORCA's secret base.");
+				openSecretDoor();
+				current_roll = [0,0,0,0];
 			}	
 		}
 		return false;
 	}
-	function openSecretDoor();
+	function openSecretDoor(){
+		// play secret sound
+		$('#sfx')[0].play();
+		// add "door" you can enter
+		import_html("#wrapper", "inside_orca.html");
+//		alert("you found ORCA's secret base.");
+	}
+	function import_html(tag, file){
+		var obj = $(tag);
+		if(obj.length==0){
+			var emptyTag = '<div class="empty-tag"></div>';
+			$('body').append(emptyTag);
+			var newobj = $('.empty-tag');
+			if(newobj.length>0){
+				obj = $(newobj[newobj.length-1]);	
+			}
+		}
+		obj.load(file, function (response, status, xhr) {
+			if (status == "error") {
+				var msg = "Error: ";
+				alert(msg + xhr.status + " " + xhr.statusText);
+			}
+		});
+	}
 });
