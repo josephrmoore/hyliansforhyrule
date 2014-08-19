@@ -41,6 +41,7 @@ jQuery(document).ready(function($){
 			break;
 	}
 		$('#text_window').append('<p class="you">'+string+'</p>');
+		$('#text_open')[0].play();
 		scrollToBottom();
 		checkForResponse();
 	}
@@ -59,6 +60,7 @@ jQuery(document).ready(function($){
 					setTimeout(function(){
 						$('.typing').remove();
 						setTimeout(function(){
+							$('#text_close')[0].play();
 							$('#text_window').append('<p class="them">' + first_response + '</p>');
 							scrollToBottom();
 						}, 600);
@@ -73,6 +75,7 @@ jQuery(document).ready(function($){
 					setTimeout(function(){
 						$('.typing').remove();
 						setTimeout(function(){
+							$('#text_close')[0].play();
 							$('#text_window').append('<p class="them">' + second_response + '</p>');
 							scrollToBottom();
 						}, 600);
@@ -87,6 +90,7 @@ jQuery(document).ready(function($){
 					setTimeout(function(){
 						$('.typing').remove();
 						setTimeout(function(){
+							$('#text_close')[0].play();
 							$('#text_window').append('<p class="them">' + third_response + '</p>');
 							scrollToBottom();
 						}, 600)
