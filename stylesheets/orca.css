@@ -3,4 +3,144 @@ body {
   background: url("../images/orcas_room.jpg") no-repeat 0 0 black;
   background-size: 100%;
   color: white;
+  font-family: Z3;
+}
+
+/* line 11, ../sass/orca.scss */
+h1 {
+  font-family: Triforce;
+}
+
+/* line 15, ../sass/orca.scss */
+button {
+  background: #ffbc00;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #b3321c;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* line 24, ../sass/orca.scss */
+.body {
+  margin: 0 auto;
+}
+
+/* line 28, ../sass/orca.scss */
+.wrapper {
+  padding: 20px;
+}
+
+/* line 32, ../sass/orca.scss */
+header {
+  margin: 20px 0 40px;
+}
+/* line 34, ../sass/orca.scss */
+header h1 {
+  font-size: 48px;
+  color: #ffbc00;
+}
+/* line 38, ../sass/orca.scss */
+header h2 {
+  color: #b3321c;
+}
+
+/* line 43, ../sass/orca.scss */
+.body {
+  text-align: center;
+}
+/* line 45, ../sass/orca.scss */
+.body h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: darkorange;
+}
+/* line 50, ../sass/orca.scss */
+.body p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 56, ../sass/orca.scss */
+.chat-window {
+  text-align: left;
+  width: 400px;
+  height: 300px;
+  background: black;
+  color: white;
+  margin: 0 auto;
+}
+/* line 63, ../sass/orca.scss */
+.chat-window p {
+  margin-bottom: 0;
+}
+/* line 66, ../sass/orca.scss */
+.chat-window .text {
+  height: 250px;
+  border: 1px solid #ffbc00;
+  margin: 0;
+  padding: 5px;
+  overflow: scroll;
+  height: 250px;
+}
+/* line 74, ../sass/orca.scss */
+.chat-window .input {
+  border: 1px solid darkorange;
+  padding: 5px;
+  text-align: left;
+}
+/* line 78, ../sass/orca.scss */
+.chat-window .input #chat_input {
+  width: 304px;
+  font-style: italic;
+}
+/* line 82, ../sass/orca.scss */
+.chat-window .input #chat_submit {
+  background-color: #9290ff;
+  padding: 5px 15px;
+  margin: 0;
+  border: none;
+  border-radius: 3px;
+}
+
+/* line 92, ../sass/orca.scss */
+.you {
+  padding-top: 10px;
+  position: relative;
+}
+/* line 95, ../sass/orca.scss */
+.you:after {
+  content: "You";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #9290ff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 105, ../sass/orca.scss */
+.them {
+  text-align: right;
+  padding-top: 15px;
+  position: relative;
+  color: #ffe3ab;
+}
+/* line 110, ../sass/orca.scss */
+.them:after {
+  content: "Orca";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #b3321c;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 121, ../sass/orca.scss */
+.typing {
+  color: #ccc;
+  font-style: italic;
+  text-align: right;
+  font-size: 14px !important;
 }

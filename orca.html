@@ -34,7 +34,22 @@
 	        <div class="body">
 		        <div class="one-of-us">
 		        	<h1>You Are Now One of Us</h1>
-		        	<p>...</p>
+		        	<p>Your job... Learn. Get the truth. Fight.</p>
+		        	<p>How? Together. Right here.</p>
+		        	<p>When? Right now. Talk to us below to start your training.</p>
+		        </div>
+		        <div class="talk-to-us">
+		        	<h1>Are You Ready to Fight? </h1>
+		        	<button id="orca_chat">Chat</button>
+		        </div>
+		        
+		        <div class="chat-window display_none">
+			        <div id="text_window" class="text"></div>
+			        <form id="chat_form" class="input">
+			        	<label class="display_none" for="chat-input">Enter your chat here</label>
+				        <input id="chat_input" type="text" placeholder="Enter your chat here" />
+				        <input id="chat_submit" type="submit" value="Submit" />
+			        </form>
 		        </div>
 	        </div>      
 	        	        
@@ -43,14 +58,14 @@
           
           
         </div>
-        <audio preload="auto" autoplay="autoplay" id="background_music">
+        <audio preload="auto" autoplay="autoplay" loop="loop" id="background_music">
         	<source src="audio/hyrule_slowest.ogg" />
         	<source src="audio/hyrule_slowest.mp3" />
         	<source src="audio/hyrule_slowest.wav" />		    
 	    </audio>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-	    <script src="js/subscribe.js"></script>
+	    <script src="js/chat.js"></script>
 	  	<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID. -->
 	  	<script>
 	    	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
