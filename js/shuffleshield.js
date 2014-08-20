@@ -24,6 +24,7 @@ jQuery(document).ready(function($){
 			} else {
 				percentage=fonts.length;
 				shuffle(percentage);
+				$('#right')[0].play();
 				clearInterval(iv);
 			}
 		}, 500);
@@ -36,9 +37,11 @@ jQuery(document).ready(function($){
 		var iv = setInterval(function(){
 			shuffle(1, true);
 		
-			if(percentage<10){
+			if(percentage<4){
 				percentage++;
 			} else {
+				$('#wrong')[0].play();
+				$( ".shield" ).effect( "shake" );
 				clearInterval(iv);
 			}
 		}, 500);
@@ -72,4 +75,5 @@ jQuery(document).ready(function($){
 			$(fonts[i]).html(rand_html);
 		}
 	}
+	$('#background_music')[0].volume=0.5;
 });
