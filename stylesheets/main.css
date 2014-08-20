@@ -2,7 +2,7 @@
 body {
   font-family: Z3;
   font-size: 24px;
-  background: #003d00;
+  background: #003D00;
   color: #adadad;
 }
 
@@ -56,8 +56,8 @@ header h1 {
   line-height: 1;
   margin: 10px 0 0;
   padding-top: 20px;
-  color: #ffbc00;
-  text-shadow: 3px 2px 0 darkorange;
+  color: #FFBC00;
+  text-shadow: 3px 2px 0 #FF8C00;
 }
 /* line 55, ../sass/main.scss */
 header h2 {
@@ -86,7 +86,7 @@ header.member-level:after {
 /* line 75, ../sass/main.scss */
 header.member-level h1 {
   color: #b3321c;
-  text-shadow: 3px 2px 0 #ffbc00;
+  text-shadow: 3px 2px 0 #FFBC00;
 }
 
 /* line 82, ../sass/main.scss */
@@ -136,7 +136,7 @@ dt img {
 dt span {
   text-align: center;
   display: block;
-  color: #ffbc00;
+  color: #FFBC00;
 }
 
 /* line 127, ../sass/main.scss */
@@ -187,7 +187,7 @@ footer {
   font-family: Triforce;
   text-align: center;
   display: block;
-  color: #ffbc00;
+  color: #FFBC00;
   font-size: 16px;
 }
 
@@ -243,7 +243,7 @@ footer {
 }
 /* line 208, ../sass/main.scss */
 .ad.bumper h1 {
-  color: #ffbc00;
+  color: #FFBC00;
 }
 /* line 212, ../sass/main.scss */
 .ad.bumper ul {
@@ -285,7 +285,7 @@ footer {
 }
 /* line 247, ../sass/main.scss */
 .ad.newsletter button {
-  color: #ffbc00;
+  color: #FFBC00;
   background-color: #b3321c;
   padding: 10px;
   border-radius: 5px;
@@ -297,7 +297,7 @@ footer {
 }
 /* line 259, ../sass/main.scss */
 .ad.orca {
-  background-color: #666666;
+  background-color: #666;
   font-size: 18px;
 }
 /* line 262, ../sass/main.scss */
@@ -351,7 +351,7 @@ footer {
   height: 0px;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
-  border-bottom: 5.2px solid #ffbc00;
+  border-bottom: 5.2px solid #FFBC00;
 }
 /* line 28, ../sass/triforce.scss */
 .triforce_p .triangle-wisdom, .triforce_p .triangle:before {
@@ -360,7 +360,7 @@ footer {
   display: block;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
-  border-bottom: 5.2px solid #ffbc00;
+  border-bottom: 5.2px solid #FFBC00;
   top: 5.2px;
   left: -6px;
 }
@@ -371,7 +371,7 @@ footer {
   display: block;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
-  border-bottom: 5.2px solid #ffbc00;
+  border-bottom: 5.2px solid #FFBC00;
   top: 5.2px;
 }
 /* line 47, ../sass/triforce.scss */
@@ -384,7 +384,7 @@ footer {
   z-index: -1;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
-  border-top: 5.2px solid darkorange;
+  border-top: 5.2px solid #FF8C00;
   transform: rotate(60deg);
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
@@ -398,7 +398,7 @@ footer {
   content: '';
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
-  border-top: 5.2px solid darkorange;
+  border-top: 5.2px solid #FF8C00;
   position: absolute;
   display: block;
   top: 0;
@@ -409,7 +409,7 @@ footer {
   content: '';
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
-  border-top: 5.2px solid darkorange;
+  border-top: 5.2px solid #FF8C00;
   position: absolute;
   display: block;
   top: -5.2px;
@@ -438,7 +438,7 @@ footer {
   height: 0px;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 20.8px solid #ffbc00;
+  border-bottom: 20.8px solid #FFBC00;
 }
 /* line 28, ../sass/triforce.scss */
 .triforce_h .triangle-wisdom, .triforce_h .triangle:before {
@@ -447,7 +447,7 @@ footer {
   display: block;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 20.8px solid #ffbc00;
+  border-bottom: 20.8px solid #FFBC00;
   top: 20.8px;
   left: -24px;
 }
@@ -458,7 +458,7 @@ footer {
   display: block;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 20.8px solid #ffbc00;
+  border-bottom: 20.8px solid #FFBC00;
   top: 20.8px;
 }
 /* line 47, ../sass/triforce.scss */
@@ -471,7 +471,7 @@ footer {
   z-index: -1;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-top: 20.8px solid darkorange;
+  border-top: 20.8px solid #FF8C00;
   transform: rotate(60deg);
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
@@ -485,7 +485,7 @@ footer {
   content: '';
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-top: 20.8px solid darkorange;
+  border-top: 20.8px solid #FF8C00;
   position: absolute;
   display: block;
   top: 0;
@@ -496,7 +496,7 @@ footer {
   content: '';
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-top: 20.8px solid darkorange;
+  border-top: 20.8px solid #FF8C00;
   position: absolute;
   display: block;
   top: -20.8px;
@@ -520,7 +520,7 @@ footer {
   height: 0px;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-bottom: 104px solid #ffbc00;
+  border-bottom: 104px solid #FFBC00;
 }
 /* line 28, ../sass/triforce.scss */
 .triforce_ad .triangle-wisdom, .triforce_ad .triangle:before {
@@ -529,7 +529,7 @@ footer {
   display: block;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-bottom: 104px solid #ffbc00;
+  border-bottom: 104px solid #FFBC00;
   top: 104px;
   left: -120px;
 }
@@ -540,7 +540,7 @@ footer {
   display: block;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-bottom: 104px solid #ffbc00;
+  border-bottom: 104px solid #FFBC00;
   top: 104px;
 }
 /* line 47, ../sass/triforce.scss */
@@ -553,7 +553,7 @@ footer {
   z-index: -1;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 104px solid darkorange;
+  border-top: 104px solid #FF8C00;
   transform: rotate(60deg);
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
@@ -567,7 +567,7 @@ footer {
   content: '';
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 104px solid darkorange;
+  border-top: 104px solid #FF8C00;
   position: absolute;
   display: block;
   top: 0;
@@ -578,7 +578,7 @@ footer {
   content: '';
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 104px solid darkorange;
+  border-top: 104px solid #FF8C00;
   position: absolute;
   display: block;
   top: -104px;

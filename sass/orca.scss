@@ -13,12 +13,7 @@ h1 {
 }
 
 button {
-	background: $triforce-yellow;
-	padding: 5px;
-	text-transform: uppercase;
-	color: $red-ring;
-	border-radius: 3px;
-	cursor: pointer;
+	@include button-style();
 }
 
 .body {

@@ -13,55 +13,56 @@ h1 {
 
 /* line 15, ../sass/orca.scss */
 button {
-  background: #ffbc00;
+  background: #FFBC00;
   padding: 5px;
   text-transform: uppercase;
   color: #b3321c;
   border-radius: 3px;
   cursor: pointer;
+  border: none;
 }
 
-/* line 24, ../sass/orca.scss */
+/* line 19, ../sass/orca.scss */
 .body {
   margin: 0 auto;
 }
 
-/* line 28, ../sass/orca.scss */
+/* line 23, ../sass/orca.scss */
 .wrapper {
   padding: 20px;
 }
 
-/* line 32, ../sass/orca.scss */
+/* line 27, ../sass/orca.scss */
 header {
   margin: 20px 0 40px;
 }
-/* line 34, ../sass/orca.scss */
+/* line 29, ../sass/orca.scss */
 header h1 {
   font-size: 48px;
-  color: #ffbc00;
+  color: #FFBC00;
 }
-/* line 38, ../sass/orca.scss */
+/* line 33, ../sass/orca.scss */
 header h2 {
   color: #b3321c;
 }
 
-/* line 43, ../sass/orca.scss */
+/* line 38, ../sass/orca.scss */
 .body {
   text-align: center;
 }
-/* line 45, ../sass/orca.scss */
+/* line 40, ../sass/orca.scss */
 .body h1 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: darkorange;
+  color: #FF8C00;
 }
-/* line 50, ../sass/orca.scss */
+/* line 45, ../sass/orca.scss */
 .body p {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-/* line 56, ../sass/orca.scss */
+/* line 51, ../sass/orca.scss */
 .chat-window {
   text-align: left;
   width: 400px;
@@ -70,31 +71,31 @@ header h2 {
   color: white;
   margin: 0 auto;
 }
-/* line 63, ../sass/orca.scss */
+/* line 58, ../sass/orca.scss */
 .chat-window p {
   margin-bottom: 0;
 }
-/* line 66, ../sass/orca.scss */
+/* line 61, ../sass/orca.scss */
 .chat-window .text {
   height: 250px;
-  border: 1px solid #ffbc00;
+  border: 1px solid #FFBC00;
   margin: 0;
   padding: 5px;
   overflow: scroll;
   height: 250px;
 }
-/* line 74, ../sass/orca.scss */
+/* line 69, ../sass/orca.scss */
 .chat-window .input {
-  border: 1px solid darkorange;
+  border: 1px solid #FF8C00;
   padding: 5px;
   text-align: left;
 }
-/* line 78, ../sass/orca.scss */
+/* line 73, ../sass/orca.scss */
 .chat-window .input #chat_input {
   width: 304px;
   font-style: italic;
 }
-/* line 82, ../sass/orca.scss */
+/* line 77, ../sass/orca.scss */
 .chat-window .input #chat_submit {
   background-color: #9290ff;
   padding: 5px 15px;
@@ -103,12 +104,12 @@ header h2 {
   border-radius: 3px;
 }
 
-/* line 92, ../sass/orca.scss */
+/* line 87, ../sass/orca.scss */
 .you {
   padding-top: 10px;
   position: relative;
 }
-/* line 95, ../sass/orca.scss */
+/* line 90, ../sass/orca.scss */
 .you:after {
   content: "You";
   position: absolute;
@@ -119,14 +120,14 @@ header h2 {
   font-size: 12px;
 }
 
-/* line 105, ../sass/orca.scss */
+/* line 100, ../sass/orca.scss */
 .them {
   text-align: right;
   padding-top: 15px;
   position: relative;
   color: #ffe3ab;
 }
-/* line 110, ../sass/orca.scss */
+/* line 105, ../sass/orca.scss */
 .them:after {
   content: "Orca";
   position: absolute;
@@ -137,7 +138,7 @@ header h2 {
   font-size: 12px;
 }
 
-/* line 121, ../sass/orca.scss */
+/* line 116, ../sass/orca.scss */
 .typing {
   color: #ccc;
   font-style: italic;

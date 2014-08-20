@@ -1,0 +1,29 @@
+@import 'globals';
+@import 'triforce';
+
+body {
+	background: black;
+	color: white;
+	font-family: $body_text;
+	text-align: center;
+}
+
+h1 {
+	font-size: 64px;
+	margin: 10px 0 20px;
+	color: $triforce-yellow;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 10px 0 20px;
+	color: $blue-ring;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+#code_submit {
+	@include button-style();
+}

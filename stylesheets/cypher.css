@@ -1,0 +1,37 @@
+/* line 4, ../sass/cypher.scss */
+body {
+  background: black;
+  color: white;
+  font-family: Z3;
+  text-align: center;
+}
+
+/* line 11, ../sass/cypher.scss */
+h1 {
+  font-size: 64px;
+  margin: 10px 0 20px;
+  color: #FFBC00;
+}
+
+/* line 17, ../sass/cypher.scss */
+h2 {
+  font-size: 48px;
+  margin: 10px 0 20px;
+  color: #9290ff;
+}
+
+/* line 23, ../sass/cypher.scss */
+form {
+  margin-bottom: 20px;
+}
+
+/* line 27, ../sass/cypher.scss */
+#code_submit {
+  background: #FFBC00;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #b3321c;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+}

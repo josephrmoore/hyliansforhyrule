@@ -16,3 +16,12 @@ $ganon_gray : #adadad;
 $ganon_gray_dark : #666;
 $bomb_blue : #4240fb;
 
+@mixin button-style(){
+	background: $triforce-yellow;
+	padding: 5px;
+	text-transform: uppercase;
+	color: $red-ring;
+	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+}
