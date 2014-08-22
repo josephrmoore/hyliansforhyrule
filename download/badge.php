@@ -1,6 +1,6 @@
 <?php
 $upload_dir = "users/";
-$img = $_POST['hidden_data'];
+$img = $_POST['img'];
 $img = str_replace('data:image/png;base64,', '', $img);
 $img = str_replace(' ', '+', $img);
 $data = base64_decode($img);

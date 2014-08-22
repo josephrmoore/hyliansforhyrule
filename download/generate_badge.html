@@ -36,6 +36,7 @@
 	            var canvas = document.getElementById('badge');
                 var ctx = canvas.getContext('2d');
                 var id = localStorage.getItem("ORCA_id");
+                var uploaded = false;
                 
                 if(!id){
                     id="Nice try, Terminal spy."
@@ -47,33 +48,25 @@
                   var imageObj = new Image();
                   imageObj.onload = function() {
                     ctx.drawImage(this, 0, 0);
-                    ctx.font="20px Triforce";
-                    ctx.fillText(id,150,250);
-                    uploadImage();
+                    ctx.font="80px Triforce";
+                    ctx.fillText(id,200,300);
+                    if(!uploaded){
+	                    uploadImage();
+	                    uploaded=true;
+                    }
                   };
                   imageObj.src = dataURL;
                 };
                 
-                function uploadImage(){
-		            var dataURL = canvas.toDataURL("image/png");
-	                document.getElementById('hidden_data').value = dataURL;
-	                var fd = new FormData(document.forms["form1"]);
-	 
-	                var xhr = new XMLHttpRequest();
-	                xhr.open('POST', 'badge.php', true);
-	 
-	                xhr.upload.onprogress = function(e) {
-	                    if (e.lengthComputable) {
-	                        var percentComplete = (e.loaded / e.total) * 100;
-	                        console.log(percentComplete + '% uploaded');
-	                        alert('Succesfully uploaded');
-	                    }
-	                };
-	 
-	                xhr.onload = function() {
-	 
-	                };
-	                xhr.send(fd);
+                function uploadImage(){                
+					var url='badge.php';
+					var data=canvas.toDataURL('image/png');
+					var fd=new FormData();
+					fd.append('img',data);
+					
+					var request = new XMLHttpRequest();
+					request.open('POST', url);
+					request.send(fd);
                 }
 	            
 	        });
